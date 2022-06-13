@@ -23,8 +23,6 @@ Program to implement the the Logistic Regression Model to Predict the Placement 
 Developed by: Prethiveerajan P
 RegisterNumber:  212221230079
 */
-```
-`````
 import pandas as pd
 data=pd.read_csv("Placement_Data.csv")
 data.head()
@@ -67,7 +65,7 @@ from sklearn.metrics import classification_report
 class_report=classification_report(y_test,y_pred)
 print(class_report)
 print(c.predict([[1,80,1,90,1,1,90,1,0,85,1,85]]))
-````
+```
 
 ## Output for head:
 ![output](head.png)
